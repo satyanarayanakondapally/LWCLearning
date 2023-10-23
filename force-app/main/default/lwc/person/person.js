@@ -1,6 +1,7 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, track, api } from 'lwc';
 
 export default class Person extends LightningElement {
+
     @api
     location;
 
